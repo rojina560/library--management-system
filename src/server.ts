@@ -13,7 +13,7 @@ async function main() {
     console.log("Connected To Mongodb Using Mongoose!");
 
     server = app.listen(PORT, () => {
-      console.log(`app is listening on port ${PORT}`);
+      console.log(`App is listening on port ${PORT}`);
     });
   } catch (error) {
     console.log(error);
