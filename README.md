@@ -3,7 +3,7 @@
 # 📚 Library Management System application
 this is a backend project for managment a library. its build using techonology of mongodb,mongoose,express.js,typescript and zod.  this project is included in proper schema validation,business logic enforcement , use of aggregation pipeliine,mongoose static and instance method, use of mongoose middleware like pre,post method, and filtering.this project followed mcv(model-veiw-controller )pattern.
 
-### deployed live link:[https://library-management-system-5-n2um.onrender.com]
+### deployed live link:(https://library-management-system-5-n2um.onrender.com/)
 
 ### Technology used
 -**Mongodb**-NoSQL database
