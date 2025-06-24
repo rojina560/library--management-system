@@ -1,38 +1,48 @@
 
 
+# 📚 Library Management System application
+this is a backend project for managment a library. its build using techonology of mongodb,mongoose,express.js,typescript and zod.  this project is included in proper schema validation,business logic enforcement , use of aggregation pipeliine,mongoose static and instance method, use of mongoose middleware like pre,post method, and filtering.this project followed mcv(model-veiw-controller )pattern.
+
+### deployed live link:[https://library-management-system-5-n2um.onrender.com]
+
+### Technology used
+-**Mongodb**-NoSQL database
+-**Mongoose** - ODM (Object Data Modeling) interact with mongodb
+-**zod** - for schema validation
+- **Typescript** 
+
+- **Express.js** - framework for node.js 
+- **ts-node-dev** - runs the typescript project by auto-reload during development
+
+- **dotenv** - used for .env variable managment
 
 
 
 
+## 📁 Folder Structure
 
-# 📚 Library Management System
-
-This is a **backend project** for managing a library. It is built using the following technologies:
-
-- **Express.js**
-- **MongoDB**
-- **Mongoose**
-- **TypeScript**
-- **Zod** for schema validation
-
----
-
-## 🧱 Project Architecture
-
-The project follows the **MVC (Model-View-Controller)** pattern, which helps keep the code clean and organized.
-
-### ✅ Key Features
-
-- 🔒 **Schema validation** using `Zod`
-- 🔍 **Filtering capabilities** for efficient book and user searches
-- 📦 **Business logic** for book availability and borrowing control
-- 🧮 **MongoDB aggregation pipeline** usage for complex queries
-- ⚙️ **Mongoose middlewares** (`pre` / `post`) for data hooks
-- 📘 **Static methods** in models for reusable logic (e.g. checking if a book exists)
-
----
-
-This backend is a great foundation for any library management application and demonstrates real-world use of TypeScript with a scalable Node.js architecture.
+```plaintext
+library-management-system/
+│
+├── src/                     # Source code folder
+│   ├── app/                 # Express app and config
+│   │   ├── config/          # Configuration files (e.g. environment, constants)
+│   │   ├── controllers/     # Route controllers / business logic
+│   │   ├── models/          # Mongoose models / schemas
+│   │   ├── routes/          # Express route definitions
+│   │   └── utils/           # Utility/helper functions
+│   │
+│   ├── server.ts            # Main entry point to start the server
+│   └── app.ts               # Express app initialization
+│
+├── dist/                    # Compiled JavaScript output folder (from TypeScript)
+├── node_modules/            # Installed npm packages
+├── .env                     # Environment variables file (not committed)
+├── .gitignore               # Files/folders to ignore in git
+├── package.json             # Project dependencies and scripts
+├── tsconfig.json            # TypeScript configuration
+├── README.md                # Project documentation
+└── ...
 
 
 ### Explanation
